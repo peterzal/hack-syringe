@@ -1,0 +1,16 @@
+${Ansi.BLUE}                                 88
+                                 ""
+
+,adPPYba, 8b       d8 8b,dPPYba, 88 8b,dPPYba,   ,adPPYb,d8  ,adPPYba,
+I8[    "" `8b     d8' 88P'   "Y8 88 88P'   `"8a a8"    `Y88 a8P_____88
+ `"Y8ba,   `8b   d8'  88         88 88       88 8b       88 8PP"""""""
+aa    ]8I   `8b,d8'   88         88 88       88 "8a,   ,d88 "8b,   ,aa
+`"YbbdP"'     Y88'    88         88 88       88  `"YbbdP"Y8  `"Ybbd8"'
+              d8'                                aa,    ,88
+             d8'                                  "Y8bbdP"
+${AnsiColor.CYAN}                                  .--.
+                         ,-.------+-.|  ,-.
+                ,--=======* )"("")===)===* )
+                ô        `-"---==-+-"|  `-"
+                O                 '--'
+${Ansi.RED} :: Spring Boot${spring-boot.formatted-version} :: ${Ansi.DEFAULT}

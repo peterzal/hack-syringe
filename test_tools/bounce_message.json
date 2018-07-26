@@ -1,0 +1,15 @@
+{
+  "envelope": "foo",
+  "recipient": "bar",
+  "x-tm-id": "123",
+  "results": [
+    {
+      "description": "baz",
+      "status": "qux",
+      "code": 456,
+      "time": "1/2/2050",
+      "from": "corge",
+      "state": "grault"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "envelope": "delivery@mx.sailthru.com",
+  "recipient": "tes5552@paperdollblanket.com",
+  "ips": [
+    "173.228.155.201",
+    "173.228.155.200"
+  ],
+  "headers": {
+    "x-tm-id": "20180716194404.13884792.11"
+  },
+  "x-tm-id": "20180716194404.13884792.11",
+  "results": [
+    {
+      "state": "rcptto",
+      "result": "error",
+      "time": "2018-07-16 23:44:05",
+      "from": "173.228.155.200",
+      "to": "82.94.250.23",
+      "cipher": {
+        "name": "DHE-RSA-AES256-SHA",
+        "bits": 256,
+        "algbits": 256,
+        "version": "TLSv1\/SSLv3",
+        "id": 57,
+        "secure": true
+      },
+      "certificate": {
+        "notbefore": "2018-01-09 05:00:00",
+        "notafter": "2020-01-12 04:59:59",
+        "version": 3,
+        "verified": true,
+        "result": "ok",
+        "keyusage": 160,
+        "self-signed": false,
+        "subject": {
+          "common": "*.primerelay.net",
+          "unit": "Domain Control Validated"
+        },
+        "issuer": {
+          "common": "COMODO RSA Domain Validation Secure Server CA",
+          "country": "GB",
+          "locality": "Salford",
+          "state": "Greater Manchester",
+          "organization": "COMODO CA Limited"
+        },
+        "secure": true,
+        "altnames": [
+          "primerelay.net",
+          "*.primerelay.net"
+        ]
+      },
+      "messages": 1,
+      "status": "5.1.1",
+      "description": "<tes5552@paperdollblanket.com>: Recipient address rejected: User unknown in virtual mailbox table",
+      "mta": "mx2.primerelay.net",
+      "code": 550,
+      "attempt": 1
+    }
+  ],
+  "maxdelivertime": "2018-07-17 23:44:04",
+  "subject": "bounce test",
+  "to": [
+    "tes5552@paperdollblanket.com"
+  ],
+  "from": "updates@paperdollblanket.com"
+}
